@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+// 广告区域
+.banner {
+    width: 100%;
+
+    img {
+        width: 100%;
+        display: block;
+    }
+}
+
+// elementPlus样式重写
+
+:root {
+    --el-color-primary: #0a5cff;
+    --el-color-primary-light-3: #0a5cff;
+    --el-color-primary-dark-2: #084acc;
+}
+// 空数据样式
+.el-empty__image {
+    display: flex;
+    margin-bottom: 8px;
+}
+.el-empty__description {
+    margin-top: 0;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+// 表格样式
+.el-table__header-wrapper {
+    border-radius: 8px 8px 0px 0px;
+    th .cell {
+        padding: 0;
+    }
+    th.el-table__cell {
+        background: #f7f7f7;
+        border-right: 1px solid #eee !important;
+        padding: 8px 16px;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 22px;
+        /* 中性色/#000 40% */
+        color: rgba(0, 0, 0, 0.4);
+    }
+    th.el-table__cell:last-child {
+        border: none !important;
+    }
+}
+
+// 抽屉样式
+.el-drawer__title {
+    font-size: 16px;
+}
+.el-drawer__header {
+    padding: 24px 24px 0 24px;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.85);
+}
+.el-drawer__body {
+    padding: 24px;
+}
+
+// 栅格样式
+.el-row {
+    width: 100%;
+}
+
+// 表单样式
+.el-form--inline .el-form-item {
+    margin-right: 0;
+    margin-bottom: 32px;
+}
+.el-form-item__content {
+    .el-select {
+        width: 100%;
+    }
+}
+
+// 按钮样式
+.el-button {
+    border-radius: 8px;
+}
+.popper {
+    .el-cascader-node {
+        height: inherit !important;
+        padding: 8px 6px !important;
+    }
+    .el-cascader-menu__list {
+        padding: 8px;
+    }
+
+    img {
+        width: 64px;
+        height: 64px;
+        margin-right: 8px;
+    }
+}
